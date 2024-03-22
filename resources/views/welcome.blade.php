@@ -64,7 +64,7 @@
                                 <a class="text-dark px-2" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="text-dark px-2" href=""><i class="fab fa-linkedin-in"></i></a>
                                 <a class="text-dark px-2" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="text-body ps-4" href=""><i class="fa fa-lock text-dark me-1"></i> Signup/login</a>
+                                <a class="text-body ps-4" href="{{ route('login') }}"><i class="fa fa-lock text-dark me-1"></i> Signup/login</a>
                             </div>
                         </div>
                     </div>
@@ -80,7 +80,7 @@
                     </button>
                     <div class="collapse navbar-collapse bg-white" id="navbarCollapse">
                         <div class="navbar-nav ms-lg-auto mx-xl-auto">
-                            <a href="index.html" class="nav-item nav-link active">Home</a>
+                            <a href="index.html" class="nav-item nav-link active">Dashboard</a>
                             <a href="about.html" class="nav-item nav-link">About</a>
                             <a href="activity.html" class="nav-item nav-link">Activities</a>
                             <a href="event.html" class="nav-item nav-link">Events</a>
@@ -751,7 +751,7 @@
                         <div class="footer-item mt-5">
                             <h4 class="text-light mb-4">Explore Link</h4>
                             <div class="d-flex flex-column align-items-start">
-                                <a class="text-body mb-2" href=""><i class="fa fa-check text-primary me-2"></i>Home</a>
+                                <a class="text-body mb-2" href=""><i class="fa fa-check text-primary me-2"></i>Dashboard</a>
                                 <a class="text-body mb-2" href=""><i class="fa fa-check text-primary me-2"></i>About Us</a>
                                 <a class="text-body mb-2" href=""><i class="fa fa-check text-primary me-2"></i>Our Features</a>
                                 <a class="text-body mb-2" href=""><i class="fa fa-check text-primary me-2"></i>Contact us</a>
