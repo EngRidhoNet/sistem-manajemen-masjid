@@ -12,15 +12,15 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('table_masjid', function (Blueprint $table) {
-            $table->id()->primary();
+            $table->id();
             $table->string('nama_masjid');
             $table->string('alamat');
-            $table->int('no_hp');
+            $table->string('no_hp');
             $table->string('email');
-            $table->string('website');
-            $table->string('latitude');
-            $table->string('longitude');
-            $table->string('foto_masjid');
+            $table->string('website')->nullable();
+            $table->string('latitude')->nullable();
+            $table->string('longitude')->nullable();
+            $table->string('foto_masjid')->nullable();
             $table->text('deskripsi');
             $table->timestamps();
         });
