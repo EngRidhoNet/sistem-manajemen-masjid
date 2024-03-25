@@ -8,7 +8,7 @@ use App\Models\User;
 class donasi extends Model
 {
     use HasFactory;
-    protected $table = 'donasi';
+    protected $table = 'table_donasi';
 
     protected $fillable = [
         'id_donatur',

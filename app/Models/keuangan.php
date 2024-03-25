@@ -10,7 +10,7 @@ class keuangan extends Model
 {
     use HasFactory;
 
-    protected $table = 'keuangan';
+    protected $table = 'table_keuangan';
 
     protected $fillable = [
         'id_masjid',

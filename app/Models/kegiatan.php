@@ -9,7 +9,7 @@ use App\Models\masjid;
 class kegiatan extends Model
 {
     use HasFactory;
-    protected $table = 'kegiatan';
+    protected $table = 'table_kegiatan';
 
     protected $fillable = [
         'id_masjid',

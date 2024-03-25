@@ -9,7 +9,7 @@ use App\Models\masjid;
 class pengurus extends Model
 {
     use HasFactory;
-    protected $table = 'pengurus';
+    protected $table = 'table_pengurus';
 
     protected $fillable = [
         'id_masjid',
@@ -22,6 +22,6 @@ class pengurus extends Model
     // Relationship with Masjid
     public function masjid()
     {
-        return $this->belongsTo(masjidasjid::class, 'id_masjid');
+        return $this->belongsTo(masjid::class, 'id_masjid');
     }
 }

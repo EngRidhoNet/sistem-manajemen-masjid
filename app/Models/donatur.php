@@ -10,7 +10,7 @@ class donatur extends Model
 {
     use HasFactory;
 
-    protected $table = 'donatur';
+    protected $table = 'table_donatur';
 
     protected $fillable = [
         'nama',
