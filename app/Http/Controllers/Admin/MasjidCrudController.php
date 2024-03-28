@@ -56,10 +56,6 @@ private function getFieldData($show = false)
                 'label' => 'email',
                 'type' => 'email',
         ]);
-        CRUD::addField([
-            'name' => 'nama',
-            'label' => 'nama',
-            ])
     }
     protected function setupUpdateOperation()
     {
